@@ -1,0 +1,38 @@
+.exprienceSection {
+    
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    h2 {
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.151);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    padding: 4px 0;
+    width: 50%;
+    }
+
+    .exprienceInfo {
+        width: 80%;
+        
+        display: flex;
+        justify-content: flex-start;
+        gap: 50px;
+        font-size: 20px;
+        border: 1px solid grey;
+        padding: 10px;
+
+        .exprience-item-group {
+            
+
+            .exprience-item-companyName {
+                font-weight: bolder;
+            }
+        }
+    }
+}
